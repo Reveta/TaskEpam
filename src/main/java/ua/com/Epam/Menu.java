@@ -32,9 +32,17 @@ public final class Menu {
 //    this.restartMenuAndFibonacciClasses();
     FibonacciClass.restartFibonacciClass();
     soutNL("Enter your first number: ");
-    menu.setFirstNumber(scanInt());
+    int first = scanInt();
     soutNL("Enter your second number: ");
-    menu.setSecondNumber(scanInt());
+    int second = scanInt();
+
+    if(first < second){
+      menu.setFirstNumber(first);
+      menu.setSecondNumber(second);
+    }else {
+      menu.setFirstNumber(second);
+      menu.setSecondNumber(first);
+    }
     soutNL();
 
   }
