@@ -1,13 +1,13 @@
-package ua.com.Epam;
+package ua.com.Epam.task1;
 
-import static ua.com.Epam.Utilts.scanInt;
-import static ua.com.Epam.Utilts.soutNL;
+import static ua.com.Epam.task1.Utilts.scanInt;
+import static ua.com.Epam.task1.Utilts.soutNL;
 
 import java.util.LinkedList;
 import java.util.List;
-import ua.com.Epam.operation.FibonacciClass;
-import ua.com.Epam.operation.OutOddAndEven;
-import ua.com.Epam.operation.OutSumOddAndEven;
+import ua.com.Epam.task1.operation.FibonacciClass;
+import ua.com.Epam.task1.operation.OutOddAndEven;
+import ua.com.Epam.task1.operation.OutSumOddAndEven;
 
 public final class Menu {
 

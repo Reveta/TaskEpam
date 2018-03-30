@@ -1,4 +1,4 @@
-package ua.com.Epam;
+package ua.com.Epam.task1;
 
 import java.util.InputMismatchException;
 import java.util.List;

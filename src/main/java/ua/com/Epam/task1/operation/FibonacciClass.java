@@ -1,13 +1,13 @@
-package ua.com.Epam.operation;
+package ua.com.Epam.task1.operation;
 
 
-import static ua.com.Epam.Utilts.sout;
-import static ua.com.Epam.Utilts.soutNL;
+import static ua.com.Epam.task1.Utilts.sout;
+import static ua.com.Epam.task1.Utilts.soutNL;
 
 import java.util.LinkedList;
 import java.util.List;
-import ua.com.Epam.Menu;
-import ua.com.Epam.Utilts;
+import ua.com.Epam.task1.Menu;
+import ua.com.Epam.task1.Utilts;
 
 public final class FibonacciClass extends SimilarOperation{
 
