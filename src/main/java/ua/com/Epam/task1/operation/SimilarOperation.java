@@ -1,7 +1,7 @@
 package ua.com.Epam.task1.operation;
 
-import static ua.com.Epam.task1.Utilts.sout;
-import static ua.com.Epam.task1.Utilts.soutNL;
+import static com.Utils.sout;
+import static com.Utils.soutNL;
 
 import java.util.ArrayList;
 import java.util.List;

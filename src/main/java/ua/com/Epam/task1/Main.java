@@ -1,5 +1,7 @@
 package ua.com.Epam.task1;
 
+import com.Utils;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class Main {
           + "4. Out Fibonacci loop;\n"
           + "5. Out percent of even and odd Fibonacci.\n"
           + "0. Exit program");
-      switch (Utilts.scanInt()) {
+      switch (Utils.scanInt()) {
         case 1:
           menu.restartMenu();
 //          menu.viewToString();

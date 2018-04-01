@@ -6,6 +6,8 @@ public class Main {
     }
 
     private static void closeAll() {
+
+
         try (Person person = new Person()) {
 
         } catch (Exception e) {

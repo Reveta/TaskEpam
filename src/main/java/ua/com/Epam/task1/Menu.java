@@ -1,8 +1,6 @@
 package ua.com.Epam.task1;
 
-import static ua.com.Epam.task1.Utilts.scanInt;
-import static ua.com.Epam.task1.Utilts.soutNL;
-
+import static com.Utils.*;
 import java.util.LinkedList;
 import java.util.List;
 import ua.com.Epam.task1.operation.FibonacciClass;

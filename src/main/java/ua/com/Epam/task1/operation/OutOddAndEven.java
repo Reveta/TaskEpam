@@ -1,8 +1,8 @@
 package ua.com.Epam.task1.operation;
 
-import static ua.com.Epam.task1.Utilts.sout;
-import static ua.com.Epam.task1.Utilts.soutNL;
+import static com.Utils.soutNL;
 
+import com.Utils;
 import java.util.List;
 import ua.com.Epam.task1.Menu;
 
@@ -19,7 +19,7 @@ public final class OutOddAndEven extends SimilarOperation {
 
   private static void outListConsole(String message, List<Integer> list) {
     soutNL(message);
-    sout(list);
+//    sout(list);
     soutNL();
   }
 }

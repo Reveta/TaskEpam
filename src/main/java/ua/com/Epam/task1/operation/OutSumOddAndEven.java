@@ -1,7 +1,6 @@
 package ua.com.Epam.task1.operation;
 
-
-import static ua.com.Epam.task1.Utilts.soutNL;
+import static com.Utils.soutNL;
 
 import java.util.List;
 import ua.com.Epam.task1.Menu;

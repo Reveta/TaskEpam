@@ -1,13 +1,12 @@
 package ua.com.Epam.task1.operation;
 
 
-import static ua.com.Epam.task1.Utilts.sout;
-import static ua.com.Epam.task1.Utilts.soutNL;
+import static com.Utils.soutNL;
 
+import com.Utils;
 import java.util.LinkedList;
 import java.util.List;
 import ua.com.Epam.task1.Menu;
-import ua.com.Epam.task1.Utilts;
 
 public final class FibonacciClass extends SimilarOperation{
 
@@ -40,7 +39,7 @@ public final class FibonacciClass extends SimilarOperation{
     fibonacciClass.updateFibonacciData();
 
     soutNL("Fibonacci loop: ");
-    sout(fibonacciClass.getFibonacciResult());
+//    sout(fibonacciClass.getFibonacciResult());
     soutNL();
   }
 
@@ -56,7 +55,7 @@ public final class FibonacciClass extends SimilarOperation{
 
   private void reloadFibonacciN() {
     soutNL("Enter number of iterations Fibonacci loop: ");
-    this.setN(Utilts.scanInt());
+    this.setN(Utils.scanInt());
   }
 
   private void reloadFibonacciF1F2() {
