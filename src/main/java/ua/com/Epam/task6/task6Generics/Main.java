@@ -3,8 +3,6 @@ package ua.com.Epam.task6.task6Generics;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
 public class Main{
 
   public static void main(String[] args) {

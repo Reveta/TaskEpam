@@ -2,7 +2,7 @@ package ua.com.Epam.task3UMLShip;
 
 
 import com.Utils;
-import ua.com.Epam.task3UMLShip.controller.ControllerOrder;
+//import ua.com.Epam.task3UMLShip.controller.ControllerOrder;
 import ua.com.Epam.task3UMLShip.model.Model;
 import ua.com.Epam.task3UMLShip.model.resorses.User;
 
@@ -35,10 +35,10 @@ public class View {
             + Utils.RESET);
     switch (Utils.scanInt()) {
       case 1:
-        ControllerOrder.createOrder().showOrder();
+//        ControllerOrder.createOrder().showOrder();
         break;
       case 2:
-        ControllerOrder.showAllOrders(Model.getModel().getActiveUser().getOderList());
+//        ControllerOrder.showAllOrders(Model.getModel().getActiveUser().getOderList());
         break;
       case 3:
         break;

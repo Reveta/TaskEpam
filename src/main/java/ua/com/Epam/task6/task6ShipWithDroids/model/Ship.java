@@ -1,7 +1,6 @@
 package ua.com.Epam.task6.task6ShipWithDroids.model;
 
 import com.Utils;
-import com.sun.jmx.remote.internal.ArrayQueue;
 import java.util.List;
 import ua.com.Epam.task6.task6ShipWithDroids.model.droids.Droid;
 import ua.com.Epam.task6.task6ShipWithDroids.model.droids.DroidHP1;
@@ -13,7 +12,7 @@ public class Ship<T extends Droid> {
 
   public Ship(String type) {
     this.type = type;
-    this.droidList = new ArrayQueue<>(1);
+//    this.droidList = new ArrayQueue<>(1);
     droidList.add(new DroidHP1("123"));
   }
 

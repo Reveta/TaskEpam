@@ -87,4 +87,24 @@ public class Model {
   private boolean isUserListNull() {
     return userList.size() == 0;
   }
+
+  public User getActiveUser() {
+    return activeUser;
+  }
+
+  public void setActiveUser(User activeUser) {
+    this.activeUser = activeUser;
+  }
+
+  public List<User> getUserList() {
+    return userList;
+  }
+
+  public void setUserList(List<User> userList) {
+    this.userList = userList;
+  }
+
+  public static void setModel(Model model) {
+    Model.model = model;
+  }
 }

@@ -24,7 +24,7 @@ public class Main {
         break;
     }
 
-    menu.setMenuVarible(menuVarible);
-    menu.action(menuVarible);
+//    menu.setMenuVarible(menuVarible);
+//    menu.action(menuVarible);
   }
 }

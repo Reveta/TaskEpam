@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_gopto.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_ua.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_uk.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_de.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_gopto.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_ua.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/MyMenuTask11_uk.properties" />
+      <base-name>MyMenuTask11</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

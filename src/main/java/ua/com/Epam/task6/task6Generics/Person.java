@@ -22,4 +22,20 @@ public class Person<T, X> {
         ", name='" + name + '\'' +
         '}';
   }
+
+  public T getId() {
+    return id;
+  }
+
+  public void setId(T id) {
+    this.id = id;
+  }
+
+  public X getName() {
+    return name;
+  }
+
+  public void setName(X name) {
+    this.name = name;
+  }
 }

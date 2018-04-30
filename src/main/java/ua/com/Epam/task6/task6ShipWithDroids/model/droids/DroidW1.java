@@ -12,4 +12,6 @@ public class DroidW1 extends Droid {
     super.setType("DroidW1");
     super.setModel(model);
   }
+
+
 }

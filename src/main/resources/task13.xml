@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--<preferences EXTERNAL_XML_VERSION="1.0">-->
+  <root>
+    <cars>
+      <car id="1">
+        <model>Audy</model>
+        <price>332</price>
+      </car>
+      <car id="2">
+        <model>Hornet</model>
+        <price>2414</price>
+      </car>
+      <car id="3">
+        <model>Mazda</model>
+        <!--<price>3552</price>-->
+      </car>
+      <car id="4">
+        <model>Vova</model>
+        <price>533</price>
+      </car>
+    </cars>
+  <plains>
+    <plaine>
+      <model>
+        AirRobus
+      </model>
+    </plaine>
+    <plaine>
+      <model>
+        Drandulet
+      </model>
+    </plaine>
+  </plains>
+  </root>
+<!--</preferences>-->
